@@ -1,0 +1,245 @@
+/* *{
+    font-family: Neue Helvetica;
+} */
+
+body{
+    background-color: #f1f1f1;
+}
+.first-text{
+    font-size: 14px;
+    color: grey;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.second{
+    width: 250px;
+    background-color: #0D0D0D;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    text-align: end;
+    padding-right: 2rem;
+}
+.second-text{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.user-2{
+    background-color: #dfdbdb;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.page-1{
+    background-color: #dfdbdb;
+}
+.page-2{
+    background-color: #dfdbdb;
+}
+
+.page-1 img{
+    max-width: 30px;
+    width: 100%;
+}
+
+/* first page-1 */
+.user-3{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.user-4{
+    font-size: 14px;
+    font-weight: 600;
+}
+/* closed */
+
+/* next */
+.increase, .decrease{
+    font-size: 12px;
+    font-weight: 600;
+}
+.increase img, .decrease img{
+    max-width: 15px;
+    width: 100%;
+}
+.second-page{
+    font-size: 12px;
+}
+
+.second-page li{
+    font-size: 10px;
+}
+
+.eclipse{
+    position: absolute;
+    z-index: 3;
+    right: 7%;
+    /* top: 60%;
+    bottom: 50%; */
+}
+.eclipse img{
+    width: 200px;
+}
+
+.dabi{
+    position: absolute;
+    left: 50%;
+    right: -25%;
+    width: 100%;
+}
+
+/* completion-rate-cont */
+.completion-rate-cont{
+    position: relative;
+    overflow: hidden;
+}
+
+.completion-rate-cont-1 {
+    position: absolute;
+    right: 0;
+    left: 55%;
+    z-index: 1;
+}
+.completion-rate-cont-2{
+    position: absolute;
+    right: 0;
+    left: 51%;
+}
+
+.completion-rate-cont-1 img, .completion-rate-cont-2 img{
+    width: 290px;
+}
+
+
+.mark-img img{
+    max-width: 30px;
+    width: 100%;
+}
+
+.increase-2 img{
+    max-width: 15px;
+    width: 100%;
+}
+
+.percentage-text{
+    font-size: 10px;
+}
+/* closed */
+
+/* financial container */
+.most{
+    color: #FAB735;
+    background-color: #FEF8EA;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 15%;
+    left: 44%;
+}
+/* closed */
+
+/* Verification and KYC Metrics container */
+ .completion-rate-cont-3{
+    position: absolute;
+    right: 0;
+    left: 60%;
+    z-index: 1;
+ }
+ .completion-rate-cont-4{
+    position: absolute;
+    right: 0;
+    left: 57%;
+}
+
+ .completion-rate-cont-3 img, .completion-rate-cont-4 img{
+    width: 290px;
+}
+/* closed */
+
+/* Geographical Insights container */
+ .use-dropdown{
+    font-size: 10px;
+ }
+/* closed */
+
+/* general button */
+.btn{
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid grey;
+    padding: 4px 6px;
+}
+
+.conversion-text{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* closed */
+
+/* Device and Platform Metrics container */
+  .ios-button{
+    position: absolute;
+    right: -45%;
+  }
+/* closed */
+
+/* User Feedback and Support Metrics container */
+.thumb-up-down img{
+   width: 20px;
+}
+
+/* closed */
+
+
+@media screen and (max-width: 576px ) {
+    .dabi{
+        position: absolute;
+        left: 55%;
+        right: -25%;
+        width: 100%;
+    }
+
+    .completion-rate-cont-1 {
+        position: absolute;
+        right: 0;
+        left: 70%;
+        z-index: 1;
+    }
+    .completion-rate-cont-2{
+        position: absolute;
+        right: 0;
+        left: 66%;
+    }
+    .completion-rate-cont-3{
+        left: 70%;
+     }
+     .completion-rate-cont-4{
+        left: 66%;
+    }
+
+    .eclipse img{
+        width: 130px;
+    }
+
+    .most{
+        top: 3%;
+        left: 46%;
+        padding: 3px;
+    }
+
+    .ios-button{
+        right: -145%;
+      }
+
+    .conversion-text{
+        width: 200px;
+    }
+}
